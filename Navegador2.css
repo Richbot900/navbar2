@@ -1,0 +1,122 @@
+body{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body .barran{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 700px;
+}
+
+body .barran .logo > span{
+    font-size: 56px;
+    padding: 25px 60px;
+}
+
+body .barran .paginas{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px;
+}
+
+body .barran .paginas .boton1{
+    background: #333333;
+  border: 0;
+  border-radius: 5px;
+  color: #fefefe;
+  padding: 16px 32px;
+}
+
+body .footer {
+    background: #333333;
+    background-color: #333333;
+    height: 708px;
+    width: 100%px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+body .footer .logo2 > span {
+    color: #666666;
+    font-size: 151px;
+    padding: 30px;
+}
+
+body .footer .informacion {
+    font-size: 16px;
+    color: #f1f1f1;
+    height: 60px;
+    width: 100%;
+    justify-content: center;
+    padding: 40px;
+    text-align: center;
+}
+
+body .footer .informacion > p {
+    padding: 0 460px;
+    width: 35%;
+}
+
+body .footer .submitbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+body .footer .submitbar > input{
+
+    background: #ffffff;
+    border-radius: 50px;
+    align-items: center;
+    color: #999999;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 16px 40px;
+    width: 400px;
+}
+
+
+body .footer .submitbar .botno2 {
+    background: #666666;
+    border: 0;
+    border-radius: 30px;
+    color: #fefefe;
+    cursor: pointer;
+    padding: 16px 32px;
+
+    
+}
+
+body .footer .logos3{
+    display: flex;
+    flex-wrap: wrap;
+    color: #666666;
+    font-size: 50px;
+    padding: 50px;
+    justify-content: center;
+    text-align: center;
+    gap: 35px;
+}
+
+body .fondo {
+    background: #666666;
+    background-color: #666666;
+    color: #f1f1f1;
+    justify-content: center;
+    height: 84px;
+    align-items: center;
+}
+
+body .fondo > p {
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
